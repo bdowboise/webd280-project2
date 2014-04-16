@@ -16,9 +16,17 @@ nav {
 h1 {
     color: black;
     text-shadow: 1px 1px white, -1px -1px white;
+    padding-left: 10px;
 }
 
 .well {
     background: rgba(43, 188, 143, .7);
     border-style: ridge;
+}
+
+.navbar {
+    font-size: large;
+}
+.navbar a {
+    color: darkgreen;
 }
