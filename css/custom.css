@@ -1,3 +1,28 @@
+<<<<<<< HEAD
+body {
+    background: url('../img/bg.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: "Karla", "lucida grande", sans-serif;
+    color: white;
+}
+
+#container {
+    background: transparent;
+}
+
+nav {
+    background-color: darkseagreen;
+}
+
+h1 {
+    color: black;
+    text-shadow: 1px 1px white, -1px -1px white;
+}
+
+.well {
+    background: rgba(43, 188, 143, .7);
+    border-style: ridge;
+=======
 body {
     background: url('../img/bg.jpg') no-repeat fixed center center;
     background-size: cover;
@@ -7,4 +32,5 @@ body {
 }
 #container {
     background: transparent;
+>>>>>>> 9b337b80ad51d726c4781fb2b900a45c0557325e
 }
