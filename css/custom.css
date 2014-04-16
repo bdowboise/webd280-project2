@@ -1,0 +1,10 @@
+body {
+    background: url('../img/bg.jpg') no-repeat fixed center center;
+    background-size: cover;
+    font-family: "Karla", "lucida grande", sans-serif;
+    cursor: default;
+    margin: 0;
+}
+#container {
+    background: transparent;
+}
