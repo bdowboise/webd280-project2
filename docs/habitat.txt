@@ -1,9 +1,15 @@
 <h1>The Habitat of a  Steelhead</h1>
-Where on earth is the animal found?
-Steelheads are indigenous to the Pacific coasts of North America and Asia, and have been successfully introduced to inland lakes, especially the Great Lakes. In freshwater they live in lakes and migrate to tributaries when spawning.
-Originally, steelheads were found in North America from the Kenai Peninsula in Alaska to Mexico’s Baja Peninsula and in coastal rivers. There are significant populations in Northern California, Oregon, Washington, southern Alaska and British Columbia. Man caused environmental changes have been hard on the populations. Steelheads are also indigenous to the Asian Pacific and have been transplanted to the Great Lakes of North America. Here, their population is maintained by hatcheries. They have also been transplanted to other bodies of water in North America, as well as other continents.
-What natural surroundings does the animal need to thrive?
-Steelhead are capable of surviving in a wide range of temperature conditions. They do best where dissolved oxygen concentration is at least 7 parts per million. In streams, deep low-velocity pools are important wintering habitats. Spawning habitat consists of gravel substrates free of excessive silt.
-Where does the animal make its home?
-Steelheads typically stay in their natal freshwater stream or river for three years before heading to sea. Most steelhead then return to their home stream — the stream in which they were born or planted — to spawn. Unlike Pacific salmon, steelhead in the Great Lakes do not necessarily die after spawning and are able to continue the cycle more than once. 
+
+<h2>Where on earth is the animal found?</h2>
+
+<p>Steelheads are indigenous to the Pacific coasts of North America and Asia, and have been successfully introduced to inland lakes, especially the Great Lakes. In freshwater they live in lakes and migrate to tributaries when spawning.
+Originally, steelheads were found in North America from the Kenai Peninsula in Alaska to Mexicoï¿½s Baja Peninsula and in coastal rivers. There are significant populations in Northern California, Oregon, Washington, southern Alaska and British Columbia. Man caused environmental changes have been hard on the populations. Steelheads are also indigenous to the Asian Pacific and have been transplanted to the Great Lakes of North America. Here, their population is maintained by hatcheries. They have also been transplanted to other bodies of water in North America, as well as other continents.</p>
+
+<h2>What natural surroundings does the animal need to thrive?</h2>
+
+<p>Steelhead are capable of surviving in a wide range of temperature conditions. They do best where dissolved oxygen concentration is at least 7 parts per million. In streams, deep low-velocity pools are important wintering habitats. Spawning habitat consists of gravel substrates free of excessive silt.</p>
+
+<h2>Where does the animal make its home?</h2>
+
+<p>Steelheads typically stay in their natal freshwater stream or river for three years before heading to sea. Most steelhead then return to their home stream ï¿½ the stream in which they were born or planted ï¿½ to spawn. Unlike Pacific salmon, steelhead in the Great Lakes do not necessarily die after spawning and are able to continue the cycle more than once.</p> 
 
