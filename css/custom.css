@@ -18,7 +18,13 @@ h1 {
     text-shadow: 1px 1px white, -1px -1px white;
     padding-left: 10px;
 }
+p {
+    text-indent: 1.5em;
+}
 
+img {
+    margin: 5px;
+}
 .well {
     background: rgba(43, 188, 143, .7);
     border-style: ridge;
