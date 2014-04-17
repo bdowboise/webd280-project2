@@ -8,7 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+    <link href="css/magnific-popup.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -20,19 +20,47 @@
 <body>
 <div class="container">
     <nav id="navbar" class="navbar navabar-default" role="navigation"></nav>
-    <div class="col-xs-12">
-        <img src="img/gallery/steel1.jpg"/>
-        <img src="img/gallery/steel2.jpg"/>
-        <img src="img/gallery/steel3.jpg"/>
-        <!--<img src="img/gallery/steel4.jpg" />-->
-        <img src="img/gallery/steel5.jpg"/>
-        <img src="img/gallery/steel6.jpg"/>
+    <div class="row">
+        <div id="gallery" class="col-xs-12">
+            <h2>Steelhead Image Gallery</h2>
+            <script>
+                for (var x = 1; x < 12; x++) {
+                    document.write('<a href="img/gallery/steelhead_' + x + '.jpg"><img src="img/gallery/steelhead_' + x + '_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail" /></a>');
+                }
+            </script>
+        </div>
     </div>
+    <div class="row">
+        <div class="col-xs-12 col-sm-6 col-sm-offset-3 well lead">
+            <label for="imgUpload" class="control-label clearfix">Upload Your Own Steelhead Pictures: </label> <input
+                id="imgUpload" type="file"/>
+            <button type="button" id="imgUploadButton" class="btn btn-primary">Upload</button>
+
+        </div>
+    </div>
+
+
 </div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script>
+    $('#gallery').magnificPopup({
+        delegate: 'a',
+        type: 'image',
+        gallery: {
+            enabled: true,
+            preload: [1, 1]
+        },
+        zoom: {
+            enabled: true,
+            duration: 300,
+            easing: 'ease-in-out'
+        }
+    });
+</script>
 </body>
 </html>
