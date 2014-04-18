@@ -1,5 +1,5 @@
 body {
-    background: url('../img/bg.jpg') no-repeat fixed center center;
+    background: url('../img/bg.jpg.bak') no-repeat fixed center center;
     background-size: cover;
     font-family: "Karla", "lucida grande", sans-serif;
     color: white;
@@ -25,12 +25,6 @@ h1, h2, h3 {
     text-shadow: 2px 2px 2px black;
 }
 
-h1 {
-    color: black;
-    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
-    padding-left: 10px;
-}
-
 p {
     text-indent: 1.5em;
     text-shadow: 1px 1px 2px grey;
@@ -45,10 +39,18 @@ img {
     border-style: ridge;
 }
 
-.navbar {
+.navbar-nav {
     font-size: large;
 }
 
-.navbar a {
+.navbar-nav a {
     color: darkgreen;
+}
+
+.navbar-brand {
+    color: black;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
+    padding-left: 10px;
+    color: black;
+    font-size: xx-large;
 }
