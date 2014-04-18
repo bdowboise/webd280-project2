@@ -32,6 +32,7 @@ h1, h2, h3 {
 p {
     text-indent: 1.5em;
     text-shadow: 1px 1px 2px grey;
+    text-align: justify;
 }
 
 img {
