@@ -19,10 +19,10 @@ $('<button id="backToTop" type="button" class="btn btn-sm"><span class="glyphico
 $(window).scroll(function() {
     var top = $(window).scrollTop();
     if (top >= 200) {
-        $('#backToTop').addClass('show');
+        $('#backToTop').removeClass('hide');
     }
     else {
-        $('#backToTop').removeClass('show');
+        $('#backToTop').addClass('hide');
     }
 });
 $('#backToTop').click(function() {

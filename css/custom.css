@@ -21,8 +21,13 @@ nav {
     background-color: darkseagreen;
 }
 
-footer {
+footer .panel-body {
     color: dimgrey;
+    background-color: darkseagreen;
+}
+
+footer .panel-footer {
+    background-color: darkseagreen;
 }
 
 h1, h2, h3 {
