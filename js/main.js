@@ -7,6 +7,10 @@ $.get("tpl/header_nav.tpl.html",function(data) {
         else if ($(this).children('a').attr('href') == currentPage) $(this).addClass('active');
     });
 });
+//Footer - load footer tpl and append to container
+$.get("tpl/footer.tpl.html",function(data) {
+    $('.container').append(data);
+});
 //back to top button
 $('<button id="backToTop" type="button" class="btn btn-sm"><span class="glyphicon glyphicon-chevron-up"></span></button>')
     .appendTo('body')
