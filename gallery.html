@@ -22,11 +22,22 @@
 
     <div id="gallery" class="col-xs-12">
         <h2>Steelhead Image Gallery</h2>
-        <script>
+        <!--<script>
             for (var x = 1; x < 12; x++) {
                 document.write('<a href="img/gallery/steelhead_' + x + '.jpg"><img src="img/gallery/steelhead_' + x + '_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail" /></a>');
             }
-        </script>
+        </script>-->
+        <a href="img/gallery/steelhead_1.jpg" title="Hen And Buck Steelhead"><img src="img/gallery/steelhead_1_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_2.jpg" title="Shallow Steelhead"><img src="img/gallery/steelhead_2_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_3.jpg" title="Steelhead Head"><img src="img/gallery/steelhead_3_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_4.jpg" title="Steelhead Art"><img src="img/gallery/steelhead_4_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_5.jpg" title="Single Steelhead"><img src="img/gallery/steelhead_5_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_6.jpg" title="Steelhead Eating"><img src="img/gallery/steelhead_6_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_7.jpg" title="Steelhead River"><img src="img/gallery/steelhead_7_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_8.jpg" title="Spawning Hen and Buck"><img src="img/gallery/steelhead_8_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_9.jpg" title="Spawning hen"><img src="img/gallery/steelhead_9_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_10.jpg" title="Foraging Steelhead"><img src="img/gallery/steelhead_10_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
+        <a href="img/gallery/steelhead_11.jpg" title="Steelhead Habitat"><img src="img/gallery/steelhead_11_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail"></a>
     </div>
 
     <div class="row">
@@ -53,6 +64,9 @@
         gallery: {
             enabled: true,
             preload: [1, 1]
+        },
+        image: {
+            titleSrc: 'title'
         },
         zoom: {
             enabled: true,
