@@ -11,10 +11,11 @@ $.get("tpl/header_nav.tpl.html",function(data) {
 $.get("tpl/footer.tpl.html",function(data) {
     $('.container').append(data);
 });
-//back to top button
+//back to top button appear/disappear
 $('<button id="backToTop" type="button" class="btn btn-sm"><span class="glyphicon glyphicon-chevron-up"></span></button>')
     .appendTo('body')
     .addClass('hide');
+//back to top button functionality
 $(window).scroll(function() {
     var top = $(window).scrollTop();
     if (top >= 200) {
