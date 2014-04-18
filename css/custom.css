@@ -9,22 +9,37 @@ body {
     background: transparent;
 }
 
+#backToTop {
+    position: fixed;
+    bottom: 5%;
+    right: 3%;
+    color: black;
+    z-index: 100;
+}
+
 nav {
     background-color: darkseagreen;
 }
 
+h1, h2, h3 {
+    text-shadow: 2px 2px 2px black;
+}
+
 h1 {
     color: black;
-    text-shadow: 1px 1px white, -1px -1px white;
+    text-shadow: 1px 1px 1px white, -1px -1px 1px white;
     padding-left: 10px;
 }
+
 p {
     text-indent: 1.5em;
+    text-shadow: 1px 1px 2px grey;
 }
 
 img {
     margin: 5px;
 }
+
 .well {
     background: rgba(43, 188, 143, .7);
     border-style: ridge;
