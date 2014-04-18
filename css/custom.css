@@ -21,6 +21,10 @@ nav {
     background-color: darkseagreen;
 }
 
+footer {
+    color: dimgrey;
+}
+
 h1, h2, h3 {
     text-shadow: 2px 2px 2px black;
 }
@@ -32,6 +36,10 @@ p {
 
 img {
     margin: 5px;
+}
+
+.table-hover tr:hover {
+    color: black;
 }
 
 .well {
@@ -53,4 +61,9 @@ img {
     padding-left: 10px;
     color: black;
     font-size: xx-large;
+}
+
+.panel-footer a {
+    padding: 0 5px;
+    text-decoration: underline;
 }

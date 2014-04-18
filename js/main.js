@@ -17,7 +17,7 @@ $('<button id="backToTop" type="button" class="btn btn-sm"><span class="glyphico
     .addClass('hide');
 $(window).scroll(function() {
     var top = $(window).scrollTop();
-    if (top >= 300) {
+    if (top >= 200) {
         $('#backToTop').addClass('show');
     }
     else {
