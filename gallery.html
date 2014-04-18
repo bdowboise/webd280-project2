@@ -19,16 +19,16 @@
 </head>
 <body>
 <div class="container">
-    <div class="row">
-        <div id="gallery" class="col-xs-12">
-            <h2>Steelhead Image Gallery</h2>
-            <script>
-                for (var x = 1; x < 12; x++) {
-                    document.write('<a href="img/gallery/steelhead_' + x + '.jpg"><img src="img/gallery/steelhead_' + x + '_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail" /></a>');
-                }
-            </script>
-        </div>
+
+    <div id="gallery" class="col-xs-12">
+        <h2>Steelhead Image Gallery</h2>
+        <script>
+            for (var x = 1; x < 12; x++) {
+                document.write('<a href="img/gallery/steelhead_' + x + '.jpg"><img src="img/gallery/steelhead_' + x + '_thumb.jpg" width="200" height="200" alt="Steelhead Picture" class="img-responsive img-thumbnail" /></a>');
+            }
+        </script>
     </div>
+
     <div class="row">
         <div class="col-xs-12 col-sm-6 col-sm-offset-3 well lead">
             <label for="imgUpload" class="control-label clearfix">Upload Your Own Steelhead Pictures: </label> <input
@@ -60,7 +60,7 @@
             easing: 'ease-in-out'
         }
     });
-    $('imgUploadButton').click(function() {
+    $('#imgUploadButton').click(function () {
         alert('Sorry, upload functionality not quite working yet.');
     });
 </script>
