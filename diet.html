@@ -69,5 +69,23 @@
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
 <script src="js/main.js"></script>
+<script>
+    //collapse functionality
+    $('h3').next().hide().end().addClass('glyphicon-plus');
+    $('h3').click(function() {
+        //check if nested p tag is closed
+        if ($(this).next().css('display') == 'none') {
+            //close existing open p tags and remove minus
+            $('h3 + p').each(function() {
+                if ($(this).css('display') != 'none') {
+                    $(this).slideUp().prev().removeClass('glyphicon-minus');
+                }
+            });
+            //open current p tag and add minus
+            $(this).next().slideDown().end().addClass('glyphicon-minus');
+        }
+    });
+    $('h3').eq(0).click();
+</script>
 </body>
 </html>
